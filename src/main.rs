@@ -7,6 +7,9 @@ pub mod daysix;
 pub mod dayseven;
 pub mod dayeight;
 pub mod daynine;
+pub mod dayten;
+pub mod dayeleven;
+
 use regex::Regex;
 use read_data::read_data;
 use dayfour::run_part2;
@@ -30,8 +33,8 @@ fn main() {
     // let r = run_part2();
     // println!("the result for dayfour part 2 are {}", r);
     // let r = run_day_5();
-    let r = dayeight_part2(); 
-    
+    // let r = dayeight_part2();
+
 
 }
 
